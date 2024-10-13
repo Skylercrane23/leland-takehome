@@ -37,7 +37,7 @@ body {
 
 @layer components {
   .btn {
-    @apply text-sm whitespace-nowrap px-5 py-4 rounded-lg;
+    @apply text-sm whitespace-nowrap px-5 py-4 rounded-lg cursor-pointer;
   }
 
   .btn-primary {
