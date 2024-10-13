@@ -15,11 +15,13 @@ const UrlShortenerList = () => {
   function ListItems() {
     if (Object.entries(urlList).length > 0) {
       return Object.entries(urlList).map(([key, value]) => (
-        <li
-          key={key}
-          className="rounded-full bg-secondary/10 text-secondary text-sm p-2 hover:bg-secondary/15"
-        >
-          <Link href={`http://localhost:3000/${key}`}>{key}</Link>
+        <li key={key}>
+          <Link
+            href={`http://localhost:3000/${key}`}
+            className="rounded-full bg-secondary/10 text-secondary text-sm p-2 hover:bg-secondary/15"
+          >
+            {key}
+          </Link>
         </li>
       ));
     }
