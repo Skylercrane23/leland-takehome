@@ -54,4 +54,4 @@ The solution has been tested manually and involves the following steps:
 - **LocalStorage:** For client-side persistence of shortened URLs mappings.
 - **[Lucide Icons](https://lucide.dev/):** Icon library.
 - **Visual Studio Code:** IDE for writing and organizing code.
-- **ChatGPT (OpenAI)**: Used for help understanding Next js, and help writing README.
+- **ChatGPT (OpenAI)**: Used for help understanding Next js, framework and help writing README.
