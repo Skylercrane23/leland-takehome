@@ -51,7 +51,8 @@ const UrlShortenerForm = ({ onShorten }) => {
             <div className="h-px w-full bg-secondary/20 md:h-full md:w-px" />
           </div>
           <input
-            type="text"
+            type="url"
+            required
             value={url}
             onChange={(e) => setUrl(e.target.value)}
             className="flex-1 border-none p-2 focus:border-primary focus-within:border-primary active:border-primary focus:outline-none"
