@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: ui-sans-serif, Helvetica, sans-serif;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold font-libre;
+  }
+
+  p,
+  ul,
+  li {
+    @apply text-secondary;
+  }
+
+  h1 {
+    @apply text-5xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply text-sm whitespace-nowrap px-5 py-4 rounded-lg;
+  }
+
+  .btn-primary {
+    @apply bg-primary hover:bg-primary/90 text-white;
+  }
+}
